@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Pemrograman Geospasial: Web | Acara 2 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        main {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<img>
+<header>
+    <nav class="navbar bg-warning navbar-expand-lg shadow" data-bs-theme="tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#282"> Tilandia Gov </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#deskripsi"> <i
+                                class="bi bi-binoculars-fill"></i> Deskripsi </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#bataswilayah"> <i
+                                class="bi bi-browser-safari"></i> Batas Wilayah </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#kecamatan"> <i
+                                class="bi bi-flag-fill"></i>
+                            Kecamatan </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="bi bi-bank2"></i> Website
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="bi bi-airplane-fill"></i>
+                            Wisata </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="bi bi-camera-video-fill"></i>
+                            Video </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#infomodal">
+                            <i class="bi bi-info-square-fill"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="alert alert-warning text-center shadow" role="alert">
+        <h1> Kabupaten Belitung </h1>
+        <h2> Provinsi Kepulauan Bangka Belitung </h2>
+    </div>
+
+    <div class="card shadow" id="deskripsi">
+        <div class="card-header">
+            <h5> <i class="bi bi-file-text-fill"></i> Deskripsi </h5>
+            Kabupaten Belitung (bahasa Melayu: Belitong, bahasa Belanda: Billiton) adalah
+            sebuah kabupaten di provinsi Kepulauan Bangka Belitung, Indonesia. Kabupaten ini memiliki luas 2.293,69
+            Km² dan berpenduduk sebanyak 193.345 jiwa pada pertengahan tahun 2025. Ibu kota kabupaten ini berada di
+            Kecamatan Tanjung Pandan Sekitar 57,17% (110.544 jiwa) penduduk kabupaten ini bermukim di Tanjung
+            Pandan.
+            <hr>
+            Secara geografis Kabupaten Belitung terletak antara 107°08' BT sampai 107°58' BT dan
+            02°30' LS sampai 03°15' LS dengan luas seluruhnya 229.369 ha atau kurang lebih 2.293,69 km². Kabupaten
+            Belitung merupakan bagian dari wilayah Provinsi Kepulauan Bangka Belitung yang juga merupakan wilayah
+            kepulauan yang terdiri dari 98 buah pulau besar dan kecil.
+        </div>
+    </div>
+
+    <div class="card shadow mt-4" id="bataswilayah">
+        <div class="card-body">
+            <table class="table" table-striped>
+                <h5> <i class="bi bi-feather"></i> Batas Wilayah</h5> <!-- table -->
+                <tr>
+                    <th>Utara</th>
+                    <th>Timur</th>
+                    <th>Barat</th>
+                    <th>Selatan</th>
+                </tr>
+                <tr>
+                    <td>Laut Natuna</td>
+                    <td>Selat Karimata dan Kabupaten Belitung Timur</td>
+                    <td>Selat Gaspar dan Kabupaten Bangka Selatan</td>
+                    <td>Laut Jawa</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card shadow mt-4" id="kecamatan">
+        <div class="card-body">
+            <h5>Kecamatan</h5>
+            <ul>
+                <li>Tanjungpandan</li>
+                <li>Membalong</li>
+                <li>Sijuk</li>
+                <li>Selat Nasik</li>
+                <li>Badau</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="infomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="infomodal">Info Penyusun</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <tabletr>
+                        <td>Riegel Vega Al Thair</td>
+                        <td>PGWEB A</td>
+                        <td>25/560291/SV/26420</td>
+                    </tabletr>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
